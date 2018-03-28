@@ -60,6 +60,32 @@ public class Main {
 
         //step 27 return to MyLinkedList public boolean removeItem
 
+        //step 30 calling on those methods
+        list.removeItem(new Node("3"));
+        list.traverse(list.getRoot());
+
+        list.removeItem(new Node("5"));
+        list.traverse(list.getRoot());
+
+        list.removeItem(new Node("0"));
+        list.removeItem(new Node("4"));
+        list.removeItem(new Node("2"));
+        list.traverse(list.getRoot());
+
+        list.removeItem(new Node("9"));
+        list.traverse(list.getRoot());
+        list.removeItem(new Node("8"));
+        list.traverse(list.getRoot());
+        list.removeItem(new Node("6"));
+        list.traverse(list.getRoot());
+        list.removeItem(list.getRoot());
+        list.traverse(list.getRoot());
+        list.removeItem(list.getRoot());
+        list.traverse(list.getRoot());
+
+        //step 31 run
+        //obtained results
+
     }
 
 }
