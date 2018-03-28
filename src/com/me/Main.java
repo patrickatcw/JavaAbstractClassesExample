@@ -17,6 +17,32 @@ public class Main {
         //step 23 run
         //result; The list is empty
 
+        String[]data = stringData.split(" ");
+        for(String s : data){
+
+            //step 24 calling method
+            list.addItem(new Node(s));
+
+        }
+
+        //step 25 calling method
+        list.traverse(list.getRoot());
+
+        //step 26 run
+        /*
+        results;
+        The list is empty
+        Cleveland is already present, not added.
+        Akron
+        Cadiz
+        Canton
+        Cleveland
+        Columbus
+        Dayton
+        Lorain*/
+
+        //step 27 return to MyLinkedList public boolean removeItem
+
     }
 
 }
