@@ -12,7 +12,24 @@ public class Main {
 
         //given code
         //create a string data array to avoid typing loads of additems instructions
-        String stringData = "Columbus Akron Dayton Canton Cleveland Cadiz Lorain Cleveland";
+        //String stringData = "Columbus Akron Dayton Canton Cleveland Cadiz Lorain Cleveland";
+
+        //step 28 change the above to.......
+        String stringData = "5 7 3 9 8 2 1 0 4 6";
+        //step 29 run
+        /*
+        results;
+        The list is empty
+        0
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9*/
 
         //step 23 run
         //result; The list is empty
